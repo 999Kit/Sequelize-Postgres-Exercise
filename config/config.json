@@ -1,10 +1,16 @@
 {
   "development": {
-    "username": "postgres",
-    "password": "postgre",
+    "username": "kiet",
+    "password": "6pypBUSdYOW9vWi42b1W9iM4RObVVE1S",
     "database": "tuan8DB",
-    "host": "127.0.0.1",
-    "dialect": "postgres"
+    "host": "dpg-clfb69mf27hc739bh9ng-a.oregon-postgres.render.com",
+    "dialect": "postgres",
+    "dialectOptions": {
+      "ssl": {
+        "require": true,
+        "rejectUnauthorized": false
+      }
+    }
   },
   "test": {
     "username": "root",
