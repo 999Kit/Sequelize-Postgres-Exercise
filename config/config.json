@@ -1,9 +1,9 @@
 {
   "development": {
     "username": "kiet",
-    "password": "6pypBUSdYOW9vWi42b1W9iM4RObVVE1S",
-    "database": "tuan8DB",
-    "host": "dpg-clfb69mf27hc739bh9ng-a.oregon-postgres.render.com",
+    "password": "aURkc3EKlLqu6If2DAEgrlmB2chKyUNw",
+    "database": "tuan8db_gd4g",
+    "host": "dpg-clhhk0vjc5ks73elp360-a.singapore-postgres.render.com",
     "dialect": "postgres",
     "dialectOptions": {
       "ssl": {
@@ -20,10 +20,16 @@
     "dialect": "mysql"
   },
   "production": {
-    "username": "root",
-    "password": null,
-    "database": "database_production",
-    "host": "127.0.0.1",
-    "dialect": "mysql"
+    "username": "kiet",
+    "password": "aURkc3EKlLqu6If2DAEgrlmB2chKyUNw",
+    "database": "tuan8db_gd4g",
+    "host": "dpg-clhhk0vjc5ks73elp360-a.singapore-postgres.render.com",
+    "dialect": "postgres",
+    "dialectOptions": {
+      "ssl": {
+        "require": true,
+        "rejectUnauthorized": false
+      }
+    }
   }
 }
